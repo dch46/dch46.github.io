@@ -1,6 +1,6 @@
 # 下面是一个PowerShell脚本，旨在令您调用Microsoft Office 365桌面版的相关功能，以批量转换Word文档、PowerPoint演示和Excel表格至PDF文档。
 
-····
+````
 # 加载Windows.Forms和Drawing程序集
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
@@ -180,4 +180,4 @@ if ($excelApp) {
 }
 
 Write-Host "文件转换完成，PDF保存在：$outputFolder"
-····
+````
